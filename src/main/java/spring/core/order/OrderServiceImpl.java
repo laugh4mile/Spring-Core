@@ -10,8 +10,7 @@ import spring.core.member.MemoryMemberRepository;
 public class OrderServiceImpl implements OrderService{
 
     private MemberRepository memberRepository = new MemoryMemberRepository();
-//    private DiscountPolicy discountPolicy = new FIxDiscountPolicy();
-    private DiscountPolicy discountPolicy = new RateDiscountPolicy();
+    private DiscountPolicy discountPolicy;
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
