@@ -7,6 +7,7 @@ import spring.core.AppConfig;
 
 public class MemberServiceTest {
     MemberService memberService;
+
 //    MemberService memberService = new MemberServiceImpl();
 
     @BeforeEach
