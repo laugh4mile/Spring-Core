@@ -16,7 +16,7 @@ public class AppConfig {
 
     /*
     컴포넌트 스캔을 하면
-    @Bean memberService()와 @Bean orderService()에서 memberRepository()를 호출한다.
+//    @Bean memberService()와 @Bean orderService()에서 memberRepository()를 호출한다.
     그렇다면 new MemoryMemberRepository() 를 2번 하므로 싱글톤이 깨지는 것 아닌가??
 
     예상
